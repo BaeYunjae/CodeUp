@@ -7,7 +7,7 @@ int main()
     scanf("%d", &n);
 
     int s[n] = {};
-    for (i=0; i<n; i++) 
+    for (i=1; i<=n; i++) 
     {
         scanf("%d", &s[i]);
         if (min > s[i])
