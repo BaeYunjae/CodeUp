@@ -1,4 +1,4 @@
-// 두번째 수
+// 두 번째 수
 #include <stdio.h>
 
 int main()
