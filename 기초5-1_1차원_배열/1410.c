@@ -9,8 +9,8 @@ int main()
     int i, o = 0, c = 0;
     scanf("%s", str);
     for (i=0; i < strlen(str); i++) {
-        if (str[i] == '(') o += 1;
-        else if (str[i] == ')') c += 1; 
+        if (str[i] == '(') o++;
+        else if (str[i] == ')') c++; 
     }
     printf("%d %d", o, c);
     return 0;
@@ -26,8 +26,8 @@ int main()
     int i, o = 0, c = 0;
     scanf("%s", str);
     for (i=0; str[i] != '\0'; i++) {
-        if (str[i] == '(') o += 1;
-        if (str[i] == ')') c += 1; 
+        if (str[i] == '(') o++;
+        if (str[i] == ')') c++; 
     }
     printf("%d %d", o, c);
     return 0;
